@@ -92,7 +92,7 @@ function draw() {
     spawnObstacles();
 
     if (obstaclesGroup.isTouching(trex)) {
-      frameCount = 0;
+      
       gameState = END;
     }
   }
@@ -192,6 +192,7 @@ function reset() {
   }
   console.log(localStorage["HighestScore"]);
 
+  frameCount = 0;
   score = 0;
   
 
