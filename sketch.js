@@ -118,7 +118,7 @@ function draw() {
     }
   }
 
-  console.log(frameCount);
+  //console.log(frameCount);
   drawSprites();
 }
 
